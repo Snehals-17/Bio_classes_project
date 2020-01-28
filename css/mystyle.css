@@ -1,0 +1,730 @@
+body{
+    margin:0px;
+    background-color:#CCCCCC;
+     padding-top: 115px; 
+}
+
+@media screen and (min-width: 768px) and (max-width:991px) {
+ body{
+  
+    padding-top:230px; 
+}
+
+
+}
+
+
+/*.....................topbar......................*/
+.fa-phone-square{
+    color:#34bf49;
+    font-size: 20px;
+}
+
+
+
+.top-bar {
+  padding: 10px 0;
+  background:white;//#CCCCCC;//#191919;//black;//
+  border-bottom: 1px solid #222;
+  line-height: 28px;
+   
+}
+
+.top-number{
+  color: #000;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 550px) and (min-width: 280px) {
+    
+    .fa-phone-square{
+    font-size: 16px;
+     }
+   .top-number{
+    font-size: 13px;
+   }
+}
+
+.top-number p{
+  margin: 0
+}
+
+.social{
+  text-align: right;
+}
+
+.social-share{
+ display: inline-block;
+ list-style: none;
+ padding: 0;
+ margin: 0;
+}
+
+ul.social-share li {
+  display: inline-block;
+}
+
+ul.social-share li a {
+  display: inline-block;
+  color: #fff;
+  
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 2px;
+}
+
+@media screen and (max-width: 550px) and (min-width: 280px) {
+    
+  ul.social-share li a {
+  
+  width: 18px;
+  height: 18px;
+ 
+}
+
+}
+
+
+
+
+ul.social-share li .a1{
+    background:#3b5998;
+}
+ul.social-share li .a2{
+    background:#1dcaff;
+}
+ul.social-share li .a3{
+    background:#0077B5;
+}
+ul.social-share li .a4{
+    background:#D34836;
+}
+ul.social-share li .a5{
+    background:#12A5F4;
+}
+ul.social-share li a:hover {
+  background: gray;
+  color: #fff;
+}
+
+
+
+.navbar-brand {
+  padding: 0;
+  margin:0;
+}
+
+.navbar {
+     
+  border-radius: 0;
+  margin-bottom: 0;
+  background:#151515;//#3b5998; //
+ // padding: 15px 0;
+  padding-bottom: 0;
+   
+}
+.abc{
+    top:44px;
+   
+}
+.navbar-right {
+    margin-top: 10px;
+}
+
+
+
+
+ .navbar-nav{
+  margin-top: 12px;
+ }
+
+.navbar-nav>li{
+  margin-left: 35px;
+  padding-bottom: 18px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  padding: 5px 12px;
+  margin: 0;
+  border-radius: 3px;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 24px;
+  display: inline-block;
+     font-weight: 900;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover{
+	background-color:skyblue;
+    border-radius: 50px;
+  //color: #fff;
+    
+    
+}
+
+.navbar-inverse {
+  border: none;
+}
+
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  background-color: skyblue;
+    border-radius: 50px;
+  color: #fff;
+}
+
+.navbar-inverse .navbar-nav .dropdown-menu {
+  background-color: rgba(0,0,0,.85);
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
+  -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
+  border: 0;
+  padding: 0;
+  margin-top: 0;
+  border-top: 0;
+  border-radius: 0;
+  left: 0;
+    text-transform: uppercase;
+     
+}
+.navbar-inverse .navbar-nav .stud{
+    width:400px;
+}
+
+.navbar-inverse .navbar-nav .dropdown-menu:before{
+  position: absolute;
+  top:0;
+}
+
+.navbar-inverse .navbar-nav .dropdown-menu > li > a {
+  padding: 8px 15px;
+  color: #fff;font-weight: 900;
+}
+
+
+
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/*
+@media screen and (min-width: 320px) and (max-width:767px){
+    .dropdown:hover .dropdown-menu {
+    display: none;
+}
+ .navbar-inverse .navbar-nav .dropdown-menu {
+    display: block !important;
+}
+    
+    
+    
+}   */
+
+
+
+
+
+
+.navbar-inverse .navbar-nav .dropdown-menu > li:hover > a,
+.navbar-inverse .navbar-nav .dropdown-menu > li:focus > a,
+.navbar-inverse .navbar-nav .dropdown-menu > li.active > a {
+  background-color:skyblue;
+  border-radius: 50px;
+  color: #fff;
+}
+
+
+
+.navbar-inverse .navbar-nav .dropdown-menu > li.divider {
+  background-color: transparent;
+}
+
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-top: 0;
+  padding-bottom: 0;
+}
+
+    
+    
+    
+    
+    
+/*..........................corosal.......................*/
+    
+
+.banner{
+    height: auto;
+    width: 100%;
+    
+ 
+}
+
+
+.kw_m{    
+    padding:20px 0 0 20px;
+    
+}
+
+
+
+
+
+.kw{width:100%;  height:280px; overflow:hidden;}
+
+
+.kw ul{
+    list-style: none;
+    
+    
+}
+
+.kw ul li{ height:300px;text-align: center; 
+   }
+
+@media screen and (max-width: 960px) and (min-width: 280px) {
+    
+   .kw{width:100%;  height:520px; overflow:hidden;margin-bottom: 10px; margin-left:-20px;}  
+    .kw ul li{width:100%;  height:510px;background: rgb(255, 255, 255,0.8);text-align: center; }
+   // padding:20px 0 20px 0px;// T R B L
+    
+}
+
+
+
+.kw ul li h2{font-family:Arial, Helvetica, sans-serif; font-size:38px; color:#fff; font-weight:normal; padding:14px 0 8px 0;background:#f00000; }
+
+
+
+.kw ul li h3{ font-family:Arial, Helvetica, sans-serif; font-size:16px; font-weight:bold; color:#404040; line-height:22px;}
+
+
+
+.kw ul li p{ font-size:14px; line-height:22px; 
+    color:#000000; padding:10px 0 11px 0; margin: 5px; text-align: justify;}//#eb3980; 
+
+
+
+.kw ul li a{ font-size:12px; font-weight:bold; color:#FFF; display:block; background-color:#255382; width:50px; height:24px; text-align:center; line-height:24px;}
+
+
+
+.kw ul li a:hover{background-color:#143f6a;}
+
+.rt{
+ height: 300px;
+width:100%;
+  }
+
+
+.inn{
+   height: 226px;
+   width: 72%;
+ //background-color: bisque;
+    position: relative;
+    left:14%;
+    top:9%;
+}
+
+/*.................container............................*/
+
+.mycontainer{
+    margin-top:20px;
+    padding-bottom: 20px;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 10px 1px 10px;
+}
+
+
+
+/*..................benefits......................*/
+
+
+
+.glyphicon-ring {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  color: white;
+  display: inline-table;
+  text-align: center;
+}
+
+.glyphicon-ring .glyphicon-bordered {
+  font-size: 20px;
+  vertical-align: middle;
+  display: table-cell;
+    
+}
+/**WITH AN ADDED BACKGROUND COLOR**/
+h5{
+    color: black;
+}
+
+h2{
+   font-family: 'Tangerine', serif;font-size:38px; color:#336699; font-weight:normal;
+}
+
+.glyphicon.glyphicon-book, .fa.fa-inr, .glyphicon.glyphicon-play{
+    font-size: 40px;
+}
+.fa.fa-pencil-square-o, .fa.fa-desktop{
+    font-size: 40px;
+}
+
+
+
+.glyphicon-teal {
+   background: radial-gradient(circle at 100px 100px, #3366CC, #fff);//background-color:lightcoral;
+  color: white;
+}
+.glyphicon-teal:hover {
+   background:radial-gradient(circle at 100px 100px, lightcoral, #fff);//background-color:lightcoral;
+    
+}
+
+/*..................features......................*/
+
+
+.b-blue {
+    background-color:#1daee9;
+}
+.b-pink{
+     background-color:#eb3980;
+}
+.b-lemon{
+     background-color:#ffd200;
+}
+.b-green{
+    background-color: #45b649;
+}
+.b-square{
+    height: 60px;
+     border-radius: 10px;
+    box-shadow: 10px 1px 10px;
+    color: white;
+     font-family:"Open Sans",sans-serif;
+    
+   
+}
+.b-blue:hover, .b-pink:hover{
+    background-color: #5bd5a0;   
+    
+}
+
+.m{
+    margin-top: 10px;
+}
+
+
+/*........................ Testinomial.............................*/
+
+
+.test{
+    
+    height: 400px;
+}
+
+  @media screen and (max-width: 960px) and (min-width: 280px) {
+         .test{
+    
+    height: 500px;
+           }
+
+        }
+    
+
+.quote {
+    color: rgba(0,0,0,.1);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/*-------------------------------*/
+/*    Carousel Fade Transition   */
+/*-------------------------------*/
+
+#fade-quote-carousel.carousel {
+  padding-bottom: 60px;
+}
+#fade-quote-carousel.carousel .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-inner .active {
+  opacity: 1;
+  -webkit-transition-property: opacity;
+   
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-indicators {
+  bottom: 10px;
+}
+#fade-quote-carousel.carousel .carousel-indicators > li {
+  background-color: #e84a64;
+  border: none;
+}
+#fade-quote-carousel blockquote {
+    text-align: center;
+    border: none;
+}
+#fade-quote-carousel .profile-circle {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 100px;
+}
+
+
+
+
+
+
+
+/* Slick Slider */
+
+
+ 
+h1 {
+ 
+ width: 100%;
+  text-align: center;
+  margin-top:50px;
+  color:hsla(360, 45%, 95%, .9);
+ 
+  letter-spacing: .8em;
+  font-size:2.5vw;
+  font-weight: normal;
+  opacity: .2;
+  text-transform: uppercase;
+  text-shadow: hsla(0, 45%, 5%, .3) 0 0 1px, hsla(360, 55%, 95%, .3) 0 -1px 2px,  hsla(0, 45%, 5%, .3) 0 -1px 2px, hsla(360, 55%, 95%, .3) 0 20px 15px;
+  
+}
+section {
+	width: 80%;
+    margin: 70px auto;
+   
+}
+
+/* Simple Slider */
+.white-back{
+	box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+	background-color: #ccffcc
+}
+.simple blockquote p {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	color: black;
+	padding: 25px;
+	font-size: 1.25em;
+	font-style: italic;
+	text-align: center;
+}
+.simple cite {
+	font-size: 1em;
+	float: right;
+	font-style: normal;
+	color: #1e528e;
+}
+.simple cite a {
+	color: #2d91c2;
+	font-style: italic;
+	text-decoration: none;
+	font-size:.85em;
+}
+.simple cite a:hover {
+	color: #00B4CC;
+}
+
+/*..............footer...................*/
+.my_button { position: fixed; bottom: 0px; right: 0px; }
+.my_button {
+   background-color: #c71111;
+}
+
+
+
+
+
+/*.....................................................................................................................................................................................................Contact...................................................................................................................................................................................................................................*/
+
+
+.glyphicon-pink{
+   background-color: rgba(255,255,255,0.5);//#F67480;
+  color: white;
+}
+
+.glyphicon-green{
+   background-color: rgba(255,255,255,0.5);//#00E4AA;
+  color: white;
+}
+
+.glyphicon-yellow{
+   background-color:rgba(255,255,255,0.5);//#EFC84A;
+  color: white;
+}
+
+.glyphicon-pink:hover {
+   background:radial-gradient(circle at 100px 100px, lightcoral, #fff);//background-color:lightcoral;
+    
+}
+
+
+.glyphicon-ring-color {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+    border: 5px solid white;
+  color: white;
+  display: inline-table;
+  text-align: center;
+}
+
+.glyphicon-ring-color .glyphicon-bordered-color {
+  font-size: 40px;
+  vertical-align: middle;
+  display: table-cell;
+    
+}
+
+.contactcontainer{
+    margin-top:20px;
+    padding-bottom: 20px;
+    background-color:#005051;
+    border-radius: 10px;
+    box-shadow: 10px 1px 10px;
+        font-family: "Oswald";
+}
+
+.glyphicon-ring-color.h3{
+    color: white;
+}
+
+.gfont{
+    color: white;
+}
+
+
+
+.cf{
+        background-color:#f1f1f1;
+        margin-bottom: 30px;
+}
+@media screen and (max-width: 960px) and (min-width: 280px) {
+    
+   .cf{
+       margin-top: 10px;
+       padding-top: 5px;
+       padding-bottom: 5px;
+}
+}
+
+
+.myform {
+   width: 600px;
+   text-align: center;
+   margin: 10px auto;
+  font-family: 'Merriweather', sans-serif;
+  padding: 1em;
+
+}
+
+
+
+.fd{
+    margin-top: 50px;
+   
+}
+
+
+
+
+  input, textarea {
+      
+     border:0; outline:0;
+     padding: 1em;
+    border-radius:5px;
+     display: block;
+     width: 80%;
+     margin-top: 1em;
+     font-family: 'Merriweather', sans-serif;
+     @include box-shadow(0 1px 1px rgba(black, 0.1));
+     resize: none;
+    
+    &:focus {
+       @include box-shadow(0 0px 2px rgba($red, 1)!important);
+    }
+  }
+
+
+  
+  #input-submit {
+     color: white; 
+     background-color:red;
+     cursor: pointer;
+     margin-bottom: 50px;
+    
+    &:hover {
+       @include box-shadow(0 1px 1px 1px rgba(#aaa, 0.6)); 
+    }
+  }
+
+
+
+  
+  textarea {
+      height: 126px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 960px) and (min-width: 280px) {
+    
+ 
+
+  
+
+    .rt{
+ height: 200px;
+        width:250px;
+
+  }
+    .inn, .inn img{
+   height: 150px;
+    }
+    
+   
+
+   
+}
+
+
+
+
+
+
